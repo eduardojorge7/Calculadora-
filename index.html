@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <link rel="shortcut icon" type="image/png" href="/favicon/favicon-32x32.png">
+        <script src="/js/operacoes.js"></script>
+        <title>Calculadora</title>
+    </head>
+
+    <body>
+        <main>
+            <div class="container-principal">
+                <p id="container-visor">0</p>
+                <p hidden id="visor-oculto"></p>
+                <table>
+                    <tr>
+                        <td><button class="button" id="AC" onclick="visor('AC')">AC</button></td>
+                        <td><button class="button" id="operador" onclick="visor('()')">( )</button></td>
+                        <td><button class="button" id="operador" onclick="visor('/100')">%</button></td>
+                        <td><button class="button" id="operador" onclick="visor('/')">÷</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button class="button" onclick="visor(7)">7</button></td>
+                        <td><button class="button" onclick="visor(8)">8</button></td>
+                        <td><button class="button" onclick="visor(9)">9</button></td>
+                        <td><button class="button" id="operador" onclick="visor('*')">x</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button class="button" onclick="visor(4)">4</button></td>
+                        <td><button class="button" onclick="visor(5)">5</button></td>
+                        <td><button class="button" onclick="visor(6)">6</button></td>
+                        <td><button class="button" id="operador" onclick="visor('-')">-</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button class="button" onclick="visor(1)">1</button></td>
+                        <td><button class="button" onclick="visor(2)">2</button></td>
+                        <td><button class="button" onclick="visor(3)">3</button></td>
+                        <td><button class="button" id="operador" onclick="visor('+')">+</button></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><button class="button zero" onclick="visor(0)">0</button></td>
+                        <td><button class="button"  onclick="visor('.')">,</button></td>
+                        <td><button class="button"  id="igual" onclick="visor('=')">=</button></td>
+                    </tr>
+
+
+                </table>
+                
+            </div>
+        </main>
+    </body>
+</html>
