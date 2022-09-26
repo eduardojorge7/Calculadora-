@@ -1,6 +1,10 @@
 # Calculator
 
-Status: developing...
-
+**Status**: developing...
+**Future updates**: 1º - bug fixes
+                    2º - dark mode
+                    
 It's a simple calculator, with a clean design! 
-Developed to train my skills in javascript, it's my first js project. 
+eveloped to train my skills in javascript. It's my first JS project.
+
+### Calculator link: https://calculadora-iota-eight.vercel.app 
