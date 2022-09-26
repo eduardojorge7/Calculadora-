@@ -1,7 +1,9 @@
 # Calculator
 
 **Status**: developing...
+
 **Future updates**: 1º - bug fixes
+
                     2º - dark mode
                     
 It's a simple calculator, with a clean design! 
