@@ -2,8 +2,7 @@
 
 **Status**: developing...
 
-**Future updates**: 1º - bug fixes
-                    2º - dark mode
+**Future updates**: bug fixes and dark mode
                     
 It's a simple calculator, with a clean design! 
 eveloped to train my skills in javascript. It's my first JS project.
